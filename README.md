@@ -39,4 +39,4 @@ A deliberate choice worth calling out: the ~1,400 missing `Rating` values are **
 
 ## Dataset
 
-https://www.kaggle.com/datasets/yusufdelikkaya/google-play-store-apps-dataset
+https://www.kaggle.com/datasets/lava18/google-play-store-apps
