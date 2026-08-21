@@ -39,14 +39,14 @@ A deliberate choice worth calling out: the ~1,400 missing `Rating` values are **
 
 ## Project structure
 
-```
+
 Google_app/
 ├── Data/                            # input dataset (CSV)
 │   └── google_play_store_dataset.csv
 ├── Notebook/
 │   └── Playstore_app_analysis.ipynb # the analysis
 └── README.md
-``
+
 
 ## Dataset
 
