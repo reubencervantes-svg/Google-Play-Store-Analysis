@@ -37,17 +37,6 @@ A deliberate choice worth calling out: the ~1,400 missing `Rating` values are **
 - **matplotlib** and **seaborn** — visualization
 - **Jupyter Notebook**
 
-## Project structure
-
-
-Google_app/
-├── Data/                            # input dataset (CSV)
-│   └── google_play_store_dataset.csv
-├── Notebook/
-│   └── Playstore_app_analysis.ipynb # the analysis
-└── README.md
-
-
 ## Dataset
 
 Google Play Store Apps — approximately 10,800 rows and 13 columns of scraped app metadata (category, rating, reviews, installs, price, size, and more).
