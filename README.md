@@ -2,7 +2,7 @@
 
 **Finding market opportunity in the Google Play Store.**
 
-An end-to-end exploratory data analysis of ~10,800 Google Play Store apps: loading and auditing messy scraped data, cleaning it honestly, and using SQL and a single scatter plot to find app categories with high demand and low competition.
+An end-to-end exploratory data analysis of 10,800 Google Play Store apps: loading and auditing messy scraped data, cleaning it honestly, and using SQL and a single scatter plot to find app categories with high demand and low competition.
 
 **Author:** Reuben Cervantes
 
