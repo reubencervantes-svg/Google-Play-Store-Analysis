@@ -39,4 +39,4 @@ A deliberate choice worth calling out: the ~1,400 missing `Rating` values are **
 
 ## Dataset
 
-Google Play Store Apps — approximately 10,800 rows and 13 columns of scraped app metadata (category, rating, reviews, installs, price, size, and more).
+https://www.kaggle.com/datasets/yusufdelikkaya/google-play-store-apps-dataset
