@@ -33,7 +33,7 @@ A deliberate choice worth calling out: the ~1,400 missing `Rating` values are **
 ## Tools used
 
 - **Python** — pandas, NumPy
-- **DuckDB** — SQL (including window functions) run directly against the DataFrame
+- **DuckDB** — SQL runs directly against the DataFrame
 - **matplotlib** and **seaborn** — visualization
 - **Jupyter Notebook**
 
