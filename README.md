@@ -6,16 +6,6 @@ An end-to-end exploratory data analysis of ~10,800 Google Play Store apps: loadi
 
 **Author:** Reuben Cervantes
 
----
-
-## The opportunity map
-
-![Opportunity map: average installs per app vs. number of apps per category, colored by quadrant](opportunity_map.png)
-
-*Top-left is the opening (high demand, few apps); bottom-right is saturated (many apps, low demand each). Bubble size shows average rating.*
-
----
-
 ## The question
 
 App stores are winner-take-all markets. A team deciding what kind of app to build wants categories with **high demand but low competition** — lots of installs per app, without a crowd of existing apps fighting for the same users. This project measures every category on those two axes and maps where the opening is.
@@ -25,7 +15,6 @@ App stores are winner-take-all markets. A team deciding what kind of app to buil
 - **Communication, Social, and Video Players** rank high on demand. Communication averages roughly **35M installs each from ~315 apps** — but with that many apps it scores as a high-demand *and* crowded market, not a clear opening.
 - The categories that land in the **Opportunity** quadrant (high demand, below-median app count) are **Video Players, Entertainment, Weather, Shopping, and Maps & Navigation**.
 - **Family** is the saturation warning: **1,876 apps** (the most of any category), yet the typical Family app is small — a ~3.3M average dragged up by a handful of hits. A newcomer there fights the most competitors for a shrinking slice of traffic.
-- A note on interpretation: high *average* installs is skewed by mega-apps, so a "high demand, few apps" category can be either an opening or a fortress dominated by incumbents. The analysis flags the pattern; picking a category would need a look at the install distribution, not just the mean.
 
 ## What's inside
 
