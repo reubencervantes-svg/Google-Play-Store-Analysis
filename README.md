@@ -5,7 +5,8 @@ Readme · MD
  
 Finding where the *opportunity* is in the Play Store: categories with high real demand but low competition. A full EDA workflow from messy scraped data to a clear, decision-ready chart.
  
-**Author:** Reuben Cervantes
+**Author:** *Reuben Cervantes*
+
 **Stack:** Python · pandas · DuckDB (SQL) · matplotlib · seaborn
  
 ---
