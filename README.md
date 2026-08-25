@@ -18,7 +18,7 @@ Finding where the *opportunity* is in the Play Store: categories with high real 
 ## Approach
  
 1. **Audit** — Inspected 10,841 rows for missing values, duplicates, and impossible records.
-2. **Clean** — Removed a corrupted row (a shifted column produced a rating of 19 on a 1–5 scale), dropped exact and app-name duplicates, and converted text fields (`"10,000+"`, `"$4.99"`) into real numeric types. Ran integrity checks (e.g. *reviews can't exceed installs*) and documented every decision. **10.9% of rows removed.**
+2. **Clean** — Removed a corrupted row (a shifted column produced a rating of 19 on a 1–5 scale), dropped exact and app-name duplicates, and converted text fields (`"10,000+"`, `"$4.99"`) into real numeric types. Ran integrity checks (*reviews can't exceed installs*) and documented every decision. **10.9% of rows removed.**
 3. **Analyze** — Scored each category on two axes using **DuckDB SQL** 
    - **Demand** — Average *vs.* median installs. When average ≫ median, the category is propped up by a few giants, not broad demand.
    - **Competition** — Number of apps in the category.
