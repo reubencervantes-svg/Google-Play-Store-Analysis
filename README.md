@@ -12,7 +12,7 @@ Finding where the *opportunity* is in the Play Store: categories with high real 
  
 ## The question
  
-App stores are winner-take-all markets. If a team wanted to build a new app, **which categories actually have room to win** — high typical demand, but not already crammed with competitors?
+**Which categories actually have room to win?** — high typical demand, but not already crammed with competitors?
  
 ## Approach
  
