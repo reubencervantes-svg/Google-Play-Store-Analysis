@@ -22,12 +22,11 @@ App stores are winner-take-all markets. If a team wanted to build a new app, **w
    - **Demand** — average *vs.* median installs. When average ≫ median, the category is propped up by a few giants, not broad demand.
    - **Competition** — number of apps in the category.
 4. **Visualize** — a single scatter "opportunity map" (competition vs. typical demand) with quadrant labeling.
+
 ## Key insight
  
 The **median** is what separates real opportunity from illusion. **Communication, Social, and Tools** look huge on *average* installs but collapse on the median — their pull comes from a handful of billion-install apps, not demand a newcomer can tap. The genuine openings (**Weather, Entertainment, Video Players, Shopping, Education**) pair healthy typical demand with relatively few rivals. **Family** is the saturation warning: the most apps of any category, yet a low median payoff.
- 
-![Opportunity Map](opportunity_map.png)
- 
+
 ## What this project demonstrates
  
 - Data cleaning with **documented, defensible decisions** (kept missing ratings rather than fabricating them; kept "impossible" rows once bucketing was understood).
