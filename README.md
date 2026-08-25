@@ -37,7 +37,7 @@ The **median** is what separates real opportunity from illusion. **Communication
 
 ## Data
  
-Google Play Store Apps — a **2018 snapshot** (10,841 rows, 13 columns). The specific categories reflect that market; the *method* is what transfers to current data.
+Google Play Store Apps — a **2018 snapshot** (10,841 rows, 13 columns). The specific categories reflect that market; the **method** is what transfers to current data.
 
 ## Files
 
