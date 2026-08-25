@@ -18,7 +18,7 @@ App stores are winner-take-all markets. If a team wanted to build a new app, **w
  
 1. **Audit** — inspected 10,841 rows for missing values, duplicates, and impossible records.
 2. **Clean** — removed a corrupted row (a shifted column produced a rating of 19 on a 1–5 scale), dropped exact and app-name duplicates, and converted text fields (`"10,000+"`, `"$4.99"`) into real numeric types. Ran integrity checks (e.g. *reviews can't exceed installs*) and documented every decision. **10.9% of rows removed.**
-3. **Analyze** — scored each category on two axes using **DuckDB SQL** (window functions for ranking) alongside pandas:
+3. **Analyze** — scored each category on two axes using **DuckDB SQL** 
    - **Demand** — average *vs.* median installs. When average ≫ median, the category is propped up by a few giants, not broad demand.
    - **Competition** — number of apps in the category.
 4. **Visualize** — a single scatter "opportunity map" (competition vs. typical demand) with quadrant labeling.
@@ -30,10 +30,11 @@ The **median** is what separates real opportunity from illusion. **Communication
  
 ## What this project demonstrates
  
-- Rigorous data cleaning with **documented, defensible decisions** (kept missing ratings rather than fabricating them; kept "impossible" rows once bucketing was understood).
+- Data cleaning with **documented, defensible decisions** (kept missing ratings rather than fabricating them; kept "impossible" rows once bucketing was understood).
 - Comfort with **both pandas and SQL** for the same analysis.
 - **Statistical judgment** — using median vs. mean to avoid a misleading conclusion.
 - Honest framing: results are treated as **hypotheses to validate, not recommendations**.
+
 ## Data
  
 Google Play Store Apps — a **2018 snapshot** (10,841 rows, 13 columns). The specific categories reflect that market; the *method* is what transfers to current data.
